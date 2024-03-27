@@ -36,9 +36,9 @@
     // Generate a random number between 1 and 6 for the second dice
       var random2 = Math.floor(Math.random()*6) + 1;
     // Build the URL of the first dice image using the random number - ./images/dice${rand}.png ==> rand=2 ./images/dice2.png, etc.
-      const dice1URL = `.dice${random1}.png;`;
+      const dice1URL = `dice${random1}.png`;
     // Build the URL of the second dice image using the random number - ./images/dice${rand}.png ==> rand=2 ./images/dice2.png, etc.
-      const dice2URL = `.dice${random2}.png`;
+      const dice2URL = `dice${random2}.png`;
     // Set the img1 src attribute to the first dice image URL
       img1.src = dice1URL;
     // Set the img2 src attribute to the second dice image URL
